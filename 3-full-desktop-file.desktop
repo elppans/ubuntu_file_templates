@@ -1,0 +1,42 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Meu Aplicativo Completo
+GenericName=Editor de Texto Avançado
+Comment=Um editor de texto com recursos poderosos
+Exec=/caminho/para/o/executável %U
+TryExec=/caminho/para/o/executável
+Icon=/caminho/para/o/ícone.png
+Terminal=false
+Categories=Utility;TextEditor;GNOME;GTK;
+StartupNotify=true
+StartupWMClass=MeuAplicativo
+MimeType=text/plain;application/pdf;
+Keywords=editor;texto;notas;pdf;
+Actions=NewWindow;OpenFile;Preferences;
+X-GNOME-UsesNotifications=true
+X-GNOME-Autostart-enabled=false
+X-GNOME-FullName=Meu Aplicativo Completo
+X-Desktop-File-Install-Version=0.26
+X-Icon-Name=MeuAplicativo
+X-Application-Category=TextEditor
+X-KDE-PluginInfo-Category=TextEditors
+X-DBus-ServiceName=org.meuapp.desktop
+X-DBus-StartupType=Multi
+X-Comment=Esse é um aplicativo muito completo
+X-Snappy-Name=meu-aplicativo-snap
+
+[Desktop Action NewWindow]
+Name=Abrir nova janela
+Exec=/caminho/para/o/executável --new-window
+Icon=/caminho/para/o/ícone.png
+
+[Desktop Action OpenFile]
+Name=Abrir arquivo
+Exec=/caminho/para/o/executável --open
+Icon=/caminho/para/o/ícone.png
+
+[Desktop Action Preferences]
+Name=Configurações
+Exec=/caminho/para/o/executável --preferences
+Icon=preferences-system

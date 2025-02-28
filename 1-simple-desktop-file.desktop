@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Meu Aplicativo
+Comment=Descrição do meu aplicativo
+Exec=/caminho/para/o/executável
+Icon=/caminho/para/o/ícone.png
+Terminal=false
+Categories=Utility;Application;
+StartupWMClass=MeuAplicativo

@@ -1,0 +1,30 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Meu Aplicativo
+GenericName=Editor de Texto
+Comment=Um editor de texto simples e eficiente
+Exec=/caminho/para/o/executável %U
+TryExec=/caminho/para/o/executável
+Icon=/caminho/para/o/ícone.png
+Terminal=false
+Categories=Utility;TextEditor;
+StartupNotify=true
+StartupWMClass=MeuAplicativo
+MimeType=text/plain;
+Keywords=editor;texto;notas;
+Actions=NewWindow;OpenFile;
+X-GNOME-UsesNotifications=true
+X-GNOME-Autostart-enabled=false
+X-GNOME-FullName=Meu Aplicativo Completo
+X-Desktop-File-Install-Version=0.26
+
+[Desktop Action NewWindow]
+Name=Abrir nova janela
+Exec=/caminho/para/o/executável --new-window
+Icon=/caminho/para/o/ícone.png
+
+[Desktop Action OpenFile]
+Name=Abrir arquivo
+Exec=/caminho/para/o/executável --open
+Icon=/caminho/para/o/ícone.png
