@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Template para operações com arrays
+declare -a array=()
+
+# Adicionar elementos, iterar, etc
